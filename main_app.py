@@ -5,5 +5,5 @@ import matplotlib.pyplot as plt
 st.title('サプーアプリ')
 st.caption('これはテスト')
 
-image=Image.open('data/PNG.png')
+image=Image.open('./data/PNG.png')
 st.image(image,width=200)
